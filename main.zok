@@ -1,0 +1,8 @@
+// Example from https://zokrates.github.io/gettingstarted.html
+
+def main(private field a, field b) {
+	//a = hash saved in servidor (hash_integer = int(hash, 16))
+	//b = new hash to be proofed
+	assert(a == b);
+	return;
+}
